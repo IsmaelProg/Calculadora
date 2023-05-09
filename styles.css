@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(123, 182, 246), white);
+    height:100vh
+    
+}
+.container {
+     width: 300px;
+     height: 500px;
+     border: 10px solid black;
+     border-radius: 10% 10% 10% 10%;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: 4fr 1fr 1fr 1fr 1fr 1fr;
+     background-color: rgb(102, 102, 102);
+     
+     
+}
+
+.pantalla{
+    width: 90%;
+    height: 200px;
+    border: 5px solid red;
+    border-radius: 10%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin: auto;
+    background: linear-gradient(white, darkgrey);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnesquinaI {
+    border-radius: 0 0 0 22%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.btnesquinaD {
+    border-radius: 0 0 22% 0;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.numPant {
+    font-size:  32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    border: 2.5px solid black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button:hover {
+    background: linear-gradient(rgb(212, 210, 210), rgb(249, 135, 94));
+    color: rgb(2, 15, 161);
+    border: 5px solid rgb(47, 46, 46)
+}
+
+.numerosP {
+    margin: 10px;
+} 
+
